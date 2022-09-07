@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.card{
+    width: 355px;
+    border-radius: 15px;
+    background-color: #F3F3F3;
+    margin: 30px auto;
+}
+
+.card__img1, .card__img2, .card__img3{
+    height: 290px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+}
+
+.card__img1{  
+    background-image: url(/images/Bg1.png);
+}
+
+.card__img1__h2:nth-child(1){
+    vertical-align: bottom;
+    height: 24px;
+    transform: translateY(500%);
+    text-align: center;
+}
+
+.card__img2{  
+    background-image: url(/images/Bg2.png);
+}
+
+.card__img3{  
+    background-image: url(/images/Bg3.png);
+}
+
+.card__p{
+    font-size: 25px;
+    line-height: 30.26px;
+    width: 326px;
+    margin: 10px auto;
+}
+
+.card__text{
+    height: 370px;
+}
+
+.card__footer{
+    height: 24px;
+    font-size: 20px;
+    line-height: 24.2px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+@media (min-width: 1080px) {
+    .card{
+        display: inline-block;
+        margin: 0 10px;
+    }
+  }

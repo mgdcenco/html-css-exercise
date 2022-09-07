@@ -1,0 +1,12 @@
+@import url(/css/components/card.css);
+@import url(/css/components/cards-list.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(24, 41, 41);
+}
